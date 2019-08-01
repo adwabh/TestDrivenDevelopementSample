@@ -9,6 +9,7 @@ import com.techyourchance.testdoublesfundamentals.exercise4.users.UsersCache;
 import org.jetbrains.annotations.Nullable;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +17,6 @@ import java.util.List;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.junit.Assert.assertThat;
-
 public class ExerciseSolution4 {
 
     public static final String USER_ID = "userId";
